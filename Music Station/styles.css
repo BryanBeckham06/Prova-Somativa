@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black
+}
+.container{
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 100px;
+    color: white;
+
+}
+.controls {
+    margin-top: 30px;
+    
+}
+.controls button {
+    width: 150px;
+    height: 50px;
+    border:none;
+    background-color:#019c22;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-inline: 5px;
+}
+.controls button:hover{
+    background-color: #06af0f;
+}
+.song-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 50px;
+}
+.cover-image {
+    width: 50px;
+    height: auto;
+    margin-right: 10px; 
+}
+.coverImage {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+
+}
+.head-text{
+    margin-top: 50px;
+}
+.playlist {
+    
+    margin-left: 150px;
+   
+}
+.playlist ul {
+    list-style:none;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+}
+.playlist li {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.playlist li:hover {
+    background-color: #f9f9f9;
+    color: black
+}
+
+div.cover-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+header {
+    display: flex;
+    justify-content:space-around;
+    height: 100px;
+    background-color: black;
+    align-items: center;
+    
+
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo img {
+    width: 350px;
+    height: 60px;
+}
